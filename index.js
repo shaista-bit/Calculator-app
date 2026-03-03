@@ -9,7 +9,7 @@ let operator = document.querySelectorAll('.operator');
 
 // converting node list of buttons to an arry
 let btnArry = Array.from(buttons);
-z
+
 let string = '';
 //apply forEach loop on 'buttons arry' to get every single btn & apply addEventListener on that every btn
 btnArry.forEach(btn => {
@@ -30,7 +30,8 @@ btnArry.forEach(btn => {
         } else {
             string += e.target.textContent
             display.value = string;// now that string will display into input field 
-        }z
+        }
     })
 });
+
 
